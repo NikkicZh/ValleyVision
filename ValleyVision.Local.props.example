@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <GamePath>C:\Path\To\Stardew Valley</GamePath>
+    <GameModsPath>$(GamePath)\Mods</GameModsPath>
+    <ValleyVisionTargetConfirmed>true</ValleyVisionTargetConfirmed>
+  </PropertyGroup>
+</Project>

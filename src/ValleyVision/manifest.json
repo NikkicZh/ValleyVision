@@ -1,0 +1,10 @@
+{
+  "Name": "ValleyVision",
+  "Author": "NikkicZh",
+  "Version": "0.1.0",
+  "Description": "在星露谷物语电视中播放公开的 B 站与 YouTube 普通视频。",
+  "UniqueID": "NikkicZh.ValleyVision",
+  "EntryDll": "ValleyVision.dll",
+  "MinimumApiVersion": "4.5.2",
+  "UpdateKeys": []
+}

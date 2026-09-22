@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\ValleyVision.Local.props" Condition="Exists('..\..\ValleyVision.Local.props')" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ValleyVision</AssemblyName>
+    <RootNamespace>ValleyVision</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>NikkicZh</Authors>
+    <ModFolderName>ValleyVision</ModFolderName>
+    <EnableModDeploy>false</EnableModDeploy>
+    <EnableHarmony>true</EnableHarmony>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+  </ItemGroup>
+
+  <Target Name="ValidateValleyVisionTarget" BeforeTargets="CoreCompile">
+    <Error Condition="'$(ValleyVisionTargetConfirmed)' != 'true'" Text="请先创建 ValleyVision.Local.props，明确指定目标游戏目录。" />
+    <Error Condition="!Exists('$(GamePath)\Stardew Valley.exe')" Text="GamePath 不是有效的星露谷游戏目录：$(GamePath)" />
+  </Target>
+</Project>

@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+ValleyVision.Local.props
+
+# 仅保留在本地 dev 分支的开发资料
+/AGENTS.md
+/.agents/
+/openspec/
+/tests/
+/scripts/
+/docs/
