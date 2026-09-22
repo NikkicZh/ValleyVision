@@ -6,5 +6,5 @@
   "UniqueID": "NikkicZh.ValleyVision",
   "EntryDll": "ValleyVision.dll",
   "MinimumApiVersion": "4.5.2",
-  "UpdateKeys": []
+  "UpdateKeys": ["Nexus:52715"]
 }

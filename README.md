@@ -1,6 +1,8 @@
 # ValleyVision（星露视界）
 
-ValleyVision 是独立的 Stardew Valley SMAPI 模组。在原版电视频道菜单中选择“播放在线视频”，输入公开的 B 站或 YouTube 普通视频链接，即可在当前电视上播放画面和声音。原版频道仍可使用。源码采用 [MIT 许可证](LICENSE)。
+简体中文 | [English](README.en.md)
+
+ValleyVision 是独立的 Stardew Valley SMAPI 模组。在原版电视频道菜单中选择“播放在线视频”，输入公开的 B 站或 YouTube 普通视频链接，即可在当前电视上播放画面和声音。模组新增界面文字目前只有中文；原版频道仍可使用。源码采用 [MIT 许可证](LICENSE)。
 
 支持 B 站 BV 视频页、有效的 `b23.tv` 短链及有效的 `?p=` 分 P；支持 HTTPS `youtube.com/watch?v=...`（包括 `www`、`m`）和 `youtu.be/...` 单视频链接。YouTube 链接即使带有播放列表参数，也只从头播放指定视频，不连续播放列表。暂不支持 Shorts、直播、仅列表页、登录后可见、年龄限制、会员或付费内容，也不处理 PO Token。
 
