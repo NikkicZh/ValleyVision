@@ -6,11 +6,11 @@ ValleyVision 是独立的 Stardew Valley SMAPI 模组。在原版电视频道菜
 
 支持 B 站 BV 视频页、有效的 `b23.tv` 短链及有效的 `?p=` 分 P；支持 HTTPS `youtube.com/watch?v=...`（包括 `www`、`m`）和 `youtu.be/...` 单视频链接。YouTube 链接即使带有播放列表参数，也只从头播放指定视频，不连续播放列表。暂不支持 Shorts、直播、仅列表页、登录后可见、年龄限制、会员或付费内容，也不处理 PO Token。
 
-目前只在 Windows Steam 游戏 1.6.15、SMAPI 4.5.2 的本机环境测试过开发构建；其他平台和版本尚未验证。最终发布包仍需单独做游戏内验收。
+0.1.0 候选包已在 Windows Steam 游戏 1.6.15、SMAPI 4.5.2 的本机隔离目录和专用存档中完成游戏内观察；B 站、YouTube、停止、自然结束、切换原版频道、离开场景与失败恢复均获玩家确认。其他平台和版本尚未验证，播放仍受网络、视频权限及外部工具版本影响。
 
 ## 游戏截图
 
-以下截图来自 Windows 版游戏的 ValleyVision 开发构建，展示链接输入、YouTube 播放和电视菜单中的停止选项。截图不代表最终发布包已完成验收。
+以下截图来自 Windows 版游戏的 ValleyVision 开发构建，展示链接输入、YouTube 播放和电视菜单中的停止选项。候选包验收使用了独立的隔离安装和专用存档。
 
 ![电视上的在线视频链接输入框](images/link-input.png)
 

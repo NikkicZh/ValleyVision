@@ -6,11 +6,11 @@ ValleyVision is an independent Stardew Valley SMAPI mod. It adds a “播放在�
 
 Supported links: HTTPS Bilibili BV video pages, valid `b23.tv` links leading to a BV video, valid `?p=` part selections, HTTPS `youtube.com/watch?v=...` links (including `www` and `m`), and `youtu.be/...` single-video links. A YouTube watch link with playlist parameters plays only the specified video from the beginning. Shorts, livestreams, playlist-only pages, login-only, age-restricted, members-only, and paid videos are unsupported. PO Tokens are not handled.
 
-The development build has been tested locally on Windows with Stardew Valley 1.6.15 (Steam) and SMAPI 4.5.2. Other platforms and versions are untested. The final release ZIP still needs its own in-game acceptance test.
+The 0.1.0 candidate ZIP was installed in an isolated mod directory and observed in-game with a dedicated save on Windows, Stardew Valley 1.6.15 (Steam), and SMAPI 4.5.2. The player confirmed Bilibili and YouTube playback, stopping, natural end, returning to original TV channels, leaving the location, and recovery after an unsupported or unavailable link. Other platforms and versions remain untested; playback also depends on the network, video access, and external tool versions.
 
 ## Screenshots
 
-These screenshots show the development build's link input, YouTube playback, and stop option. They are not evidence of final release ZIP acceptance.
+These screenshots show the development build's link input, YouTube playback, and stop option. The candidate ZIP was tested separately from an isolated installation with a dedicated save.
 
 ![Online video link input on the TV](images/link-input.png)
 
